@@ -1,0 +1,56 @@
+/* PaymentForm.css */
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* So the width includes padding and border */
+}
+
+input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+button {
+  background-color: #4CAF50; /* A nice green */
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* This is optional: style the focus state of inputs to improve accessibility */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="datetime-local"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #4CAF50;
+  outline: none; /* Removes the default focus outline */
+}
